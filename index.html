@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased bg-gray-100">
+    <header class="bg-gray-800 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:underline">Home</a></li>
+                    <li><a href="#projects" class="hover:underline">Projects</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero bg-cover bg-center h-screen text-center flex items-center justify-center shadow-2xl" style="background-image: url('path/to/your/image.jpg');">
+        <div class="bg-black bg-opacity-60 p-10 rounded-lg shadow-lg">
+            <h2 class="text-5xl text-white font-bold">Welcome to My Portfolio</h2>
+            <p class="text-xl text-gray-300 mt-4">Showcasing my work and skills</p>
+        </div>
+    </section>
+    <section id="skills" class="p-10 bg-gray-200 shadow-lg">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-6 text-center text-gray-800">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="skill bg-white p-6 shadow-md rounded-lg text-center shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800">Skill 1</h3>
+                </div>
+                <div class="skill bg-white p-6 shadow-md rounded-lg text-center shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800">Skill 2</h3>
+                </div>
+                <div class="skill bg-white p-6 shadow-md rounded-lg text-center shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800">Skill 3</h3>
+                </div>
+                <div class="skill bg-white p-6 shadow-md rounded-lg text-center shadow-lg">
+                    <h3 class="text-xl font-semibold text-gray-800">Skill 4</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="p-10 bg-gray-300 shadow-lg">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-6 text-center text-gray-800">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="project bg-white p-6 shadow-lg rounded-lg">
+                    <img src="path/to/project1.jpg" alt="Project 1" class="w-full h-48 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">Project 1</h3>
+                    <p class="text-gray-700">A Python-based web scraper that extracts data from websites and stores it in a database.</p>
+                </div>
+                <div class="project bg-white p-6 shadow-lg rounded-lg">
+                    <img src="path/to/project2.jpg" alt="Project 2" class="w-full h-48 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">Project 2</h3>
+                    <p class="text-gray-700">An e-commerce platform built with React and Node.js, featuring user authentication and payment integration.</p>
+                </div>
+                <div class="project bg-white p-6 shadow-lg rounded-lg">
+                    <img src="path/to/project3.jpg" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">Project 3</h3>
+                    <p class="text-gray-700">A cross-platform mobile application developed using Flutter for managing personal finances.</p>
+                </div>
+                <div class="project bg-white p-6 shadow-lg rounded-lg">
+                    <img src="path/to/project4.jpg" alt="Project 4" class="w-full h-48 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">Project 4</h3>
+                    <p class="text-gray-700">A machine learning model created with TensorFlow to predict housing prices based on various features.</p>
+                </div>
+                <div class="project bg-white p-6 shadow-lg rounded-lg">
+                    <img src="path/to/project5.jpg" alt="Project 5" class="w-full h-48 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">Project 5</h3>
+                    <p class="text-gray-700">A real-time chat application using WebSocket and Node.js, allowing users to communicate instantly.</p>
+                </div>
+                <div class="project bg-white p-6 shadow-lg rounded-lg">
+                    <img src="path/to/project6.jpg" alt="Project 6" class="w-full h-48 object-cover mb-4 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-800">Project 6</h3>
+                    <p class="text-gray-700">A personal portfolio website built with HTML, CSS, and JavaScript to showcase projects and skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="p-10 bg-gray-200 shadow-lg">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-6 text-center text-gray-800">Experience</h2>
+            <div class="experience bg-white p-6 shadow-md rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800">Software Engineer at TechCorp</h3>
+                <p class="text-gray-700">Jan 2020 - Present</p>
+                <p>Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
+            </div>
+            <div class="experience bg-white p-6 shadow-md rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800">Frontend Developer at WebSolutions</h3>
+                <p class="text-gray-700">Jun 2018 - Dec 2019</p>
+                <p>Implemented responsive web designs using HTML, CSS, and JavaScript. Worked closely with designers to create user-friendly interfaces.</p>
+            </div>
+            <div class="experience bg-white p-6 shadow-md rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800">Intern at CodeFactory</h3>
+                <p class="text-gray-700">Jan 2018 - May 2018</p>
+                <p>Assisted in developing internal tools and applications. Gained hands-on experience with various programming languages and frameworks.</p>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="p-10 bg-gray-300 shadow-lg">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-6 text-center text-gray-800">Education</h2>
+            <div class="education bg-white p-6 shadow-md rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800">Bachelor of Science in Computer Science</h3>
+                <p class="text-gray-700">University of Technology, 2015 - 2019</p>
+                <p>Graduated with honors, focusing on software development, algorithms, and data structures.</p>
+            </div>
+            <div class="education bg-white p-6 shadow-md rounded-lg mb-4">
+                <h3 class="text-2xl font-semibold text-gray-800">Master of Science in Artificial Intelligence</h3>
+                <p class="text-gray-700">Institute of Advanced Studies, 2019 - 2021</p>
+                <p>Specialized in machine learning, neural networks, and natural language processing.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="p-10 bg-gray-200 shadow-lg">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-6 text-center text-gray-800">Contact</h2>
+            <form class="bg-white p-6 shadow-md rounded-lg max-w-lg mx-auto shadow-lg">
+                <label for="name" class="block mb-2 font-semibold text-gray-800">Name:</label>
+                <input type="text" id="name" name="name" class="w-full p-3 mb-4 border border-gray-300 rounded-lg shadow-sm" required>
+                <label for="email" class="block mb-2 font-semibold text-gray-800">Email:</label>
+                <input type="email" id="email" name="email" class="w-full p-3 mb-4 border border-gray-300 rounded-lg shadow-sm" required>
+                <label for="message" class="block mb-2 font-semibold text-gray-800">Message:</label>
+                <textarea id="message" name="message" class="w-full p-3 mb-4 border border-gray-300 rounded-lg shadow-sm" required></textarea>
+                <button type="submit" class="bg-gray-800 text-white p-3 rounded-lg w-full shadow-md">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p class="mb-4 md:mb-0">&copy; 2023 My Portfolio</p>
+            <div class="flex space-x-6">
+                <a href="#" class="hover:underline">Twitter</a>
+                <a href="#" class="hover:underline">LinkedIn</a>
+                <a href="#" class="hover:underline">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
